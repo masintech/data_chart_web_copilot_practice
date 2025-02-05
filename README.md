@@ -5,13 +5,12 @@ The bucks2bar project is a web application that utilizes Bootstrap for responsiv
 
 ## Project Structure
 ```
-bucks2bar
-├── css
-│   └── styles.css       # Custom styles for the project
-├── js
-│   └── scripts.js       # JavaScript code for interactivity
-├── index.html           # Main HTML file
-└── README.md            # Project documentation
+css
+└── styles.css       # Custom styles for the project
+js
+└── scripts.js       # JavaScript code for interactivity
+index.html           # Main HTML file
+README.md            # Project documentation
 ```
 
 ## Getting Started
@@ -24,10 +23,6 @@ bucks2bar
 1. Clone the repository:
    ```
    git clone https://github.com/yourusername/bucks2bar.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd bucks2bar
    ```
 
 ### Running the Project
