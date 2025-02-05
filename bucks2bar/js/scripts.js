@@ -51,4 +51,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initial chart update
     updateChart();
+
+    // Download canvas as image
+    document.getElementById('download').addEventListener('click', function () {
+        const link = document.createElement('a');
+        link.href = myChart.toBase64Image();
+        link.download = 'chart.png';
+        link.click();
+    });
 });
